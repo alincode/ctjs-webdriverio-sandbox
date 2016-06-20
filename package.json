@@ -1,0 +1,17 @@
+{
+  "name": "ctjs-webdriverio-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "alincode",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.3.2",
+    "wdio-selenium-standalone-service": "0.0.5",
+    "webdriverio": "^4.0.9"
+  }
+}
