@@ -1,20 +1,28 @@
 {
   "name": "ctjs-webdriverio-sandbox",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CTJS WebdriverIO sandboxß",
   "scripts": {
     "test": "wdio wdio.conf.js"
   },
-  "keywords": [],
-  "author": {
-    "name": "alincode",
-    "email": "alincode@gmail.com"
-  },
+  "keywords": ["webdriverio"],
+  "author": "alincode <alincode@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "wdio-mocha-framework": "^0.3.2",
     "wdio-selenium-standalone-service": "0.0.5",
     "webdriverio": "^4.0.9"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://alincode@github.com/alincode/ctjs-webdriverio-sandbox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alincode/ctjs-webdriverio-sandbox/issues"
+  },
+  "homepage": "https://github.com/alincode/ctjs-webdriverio-sandbox#readme"
 }
